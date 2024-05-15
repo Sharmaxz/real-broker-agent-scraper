@@ -3,7 +3,6 @@ import csv
 import time
 import logging
 
-# 19568
 # Initial configurations
 URL = "https://bff.therealbrokerage.com/api/v1/runway/agents/search?pageNumber={}&pageSize=12"
 CSV_FILENAME = "one_real_agents.csv"
