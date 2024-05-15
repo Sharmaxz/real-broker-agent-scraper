@@ -5,7 +5,7 @@ import logging
 
 # Initial configurations
 URL = "https://bff.therealbrokerage.com/api/v1/runway/agents/search?pageNumber={}&pageSize=12"
-CSV_FILENAME = "one_real_agents.csv"
+CSV_FILENAME = "agents.csv"
 INCLUDED_FIELDS = ["firstName", "lastName", "emailAddress", "phoneNumber", "linkedInUrl", "facebookUrl",
                    "twitterUrl", "instagramUrl", "googleBusinessProfileUrl", "youtubeUrl", "addresses"]
 MAX_RETRIES = 10
